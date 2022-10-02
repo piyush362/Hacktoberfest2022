@@ -28,7 +28,7 @@
 
             color: white;
 
-            font-size: 50px;
+            font-size: 60px;
 
         }
 
@@ -48,7 +48,7 @@
 
         button {
 
-            background-color: #1782DB;
+            background-color: #2682ce; 
 
             width: 100%;
 
@@ -56,17 +56,100 @@
 
             border: none;
 
-            margin-top: 10px;
 
             border-radius: 3px;
 
             color: white;
 
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif; 
+
+
+            margin-bottom: 5px;
+
+
+            margin-top: 10px;
+
+            
+    
+    
+             
+            
 
         }
 
+
+        .btn-btn{
+
+        text-transform: uppercase;
+
+
+        font-size: 0.82em;
+
+
+        letter-spacing: 00.1em;
+
+        padding: 2px 6px;
+
+        transition: 1.3s;
         
+        }
+
+        .btn-btn:hover{
+        
+        letter-spacing: 0.2em;
+
+
+        background: var(--clr);
+
+
+        color:black;
+
+
+        box-shadow: 0 0 15px var(--clr);
+
+    
+        }
+
+
+    .btn-btn::before{
+
+        content: '';
+
+
+        position: absolute;
+   
+    
+}
+    .btn-btn span{
+    
+        position: relative;
+    
+        z-index: 1;
+}
+   
+
+
+    
+    .btn-btn::after{
+    
+        content: '';
+    
+        position: absolute;
+    
+        bottom: -3.5px;
+    
+        left: 20%;
+    
+        width: 10px;
+    
+        height: 5px;
+    
+        border: 12px 12px 12px  solid gold;
+    
+    
+        transition: 0.8s;
+}
+
 
         .title {
 
@@ -90,13 +173,17 @@
 
             width: 200px;
 
-            border-radius: 10px 10px 0px 0px;
+            border-radius: 17px 17px 0px 0px;
 
             border: none;
 
-            margin-bottom: 2px;
+            margin-bottom: 4px;
 
-            text-indent: 20px;
+            text-indent: 22px;
+
+            outline: none;
+
+            
 
         }
 
@@ -112,11 +199,13 @@
 
             width: 200px;
 
-            border-radius: 0px 0px 10px 10px;
+            border-radius: 0px 0px 17px 17px;
 
             border: none;
 
-            text-indent: 20px;
+            text-indent: 22px;
+
+            outline: none;
 
         }
 
@@ -148,7 +237,7 @@
 
             font-family: 'Work Sans', sans-serif;
 
-            font-weight: 300
+            font-weight: 400;
 
         }
 
@@ -184,7 +273,7 @@
 
         </div>
 
-        <div class="button"><button type="submit" value="Login">Login</button> </div>
+        <div class="button"><button type="submit" value="Login" style="--clr:#f5e067" class="btn-btn"><span>Login </span></button> </div>
 
     </div>
 
